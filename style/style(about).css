@@ -1,0 +1,312 @@
+body, html {
+    margin: 0;
+    padding: 0;
+   
+    justify-content: center;
+  }
+
+.img{
+    
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    display: flex;
+    
+}
+
+  .ouy {
+    justify-content: center;
+    max-width: 90%;
+    height: auto;
+    margin-top: 60px;
+    margin-bottom: 50px;
+
+  }
+
+  header {
+    background-color: #a0ebf6;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  nav{
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 20px;
+    margin-left: 100px;
+  }
+
+  header img {
+    margin-right: 20px;
+    height: 70px; /* Adjust as needed */
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+  }
+
+  header nav {
+    margin-left: auto;
+  }
+
+  header nav a {
+    color: rgb(252, 91, 33);
+    text-decoration: none;
+    margin-left: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 1200px;
+                line-height: 20px;
+                letter-spacing: 0em;
+  }
+
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    header nav {
+      margin-top: 10px;
+      justify-content: flex-end;
+    }
+
+   
+  }
+
+  .container1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/*header*/
+
+.olan{
+
+    margin-left: 50px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.olan .kiko{
+    
+    text-align: center;
+    color: rgb(3, 212, 79);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+}
+
+table {
+    justify-content: center;
+    width: 60%; /* Make the table fill the entire width of its container */
+    border-collapse: collapse; /* Collapse the borders between cells */
+  }
+
+  th, td {
+    margin-bottom: 10px;
+    
+    margin-left: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size: 20px;
+                font-weight: 300;
+                line-height: 40px;
+                letter-spacing: 0em;
+
+    
+    border: 4px solid #dddddd; /* Add a border to each cell */
+    
+    text-align: justify; /* Align text to the left within cells */
+  }
+
+  .kio td p{
+    font-size: 15px;
+                font-weight: 250;
+                line-height: 19px;
+                letter-spacing: 0em;
+
+  }
+  
+  .kilo td .lilo{
+    font-size: 15px;
+    font-weight: 250;
+    line-height: 40px;
+    letter-spacing: 0em;
+
+  }
+
+  .pola td{
+    font-size: 15px;
+                font-weight: 250;
+                line-height: 19px;
+                letter-spacing: 0em;
+                text-align: center;
+  }
+
+  .pola th{
+    font-size: 15px;
+                font-weight: 250;
+                line-height: 19px;
+                letter-spacing: 0em;
+                text-align: center;
+  }
+  th {
+
+    
+    background-color: #f2f2f2; /* Add a background color to header cells */
+  }
+
+  .content h2   .red-text {
+    color: rgb(201, 1, 1); /* Set the color to red */
+    font-family: "BPG Rioni Contrast", sans-serif;
+    
+        font-size:  22px;
+        
+        margin-top: 20px;
+        margin-bottom: 10px;
+        text-decoration: none;
+        margin-left: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+                    font-size: 25px;
+                    font-weight: 600;
+                    line-height: 30px;
+                    letter-spacing: 0em;
+        position: relative;
+        display: inline-block;
+    
+    
+    }
+
+  
+.content{
+    margin-top: 30px;
+    justify-content: center;
+    text-align: center;
+}
+  .content h2 .blue-text {
+    color: rgb(3, 3, 180); /* Set the color to blue */
+    font-family: "BPG Rioni Contrast", sans-serif;
+    font-size:  22px;
+        
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    margin-left: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size: 25px;
+                font-weight: 600;
+                line-height: 30px;
+                letter-spacing: 0em;
+    position: relative;
+    display: inline-block;
+  }
+
+  .lilo{
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+
+
+  .container {
+    margin-top: 50px;
+    max-width: 600px; /* Set maximum width for the container */
+    margin: 0 auto; /* Center the container horizontally */
+    border: 1.5px solid #ccc; /* Add a border around the container */
+    padding: 20px; /* Add some padding inside the container */
+  }
+
+  .title {
+    color: rgb(212, 21, 21);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size: 25px;
+                font-weight: 600;
+                line-height: 30px;
+                letter-spacing: 0em;
+    text-align: center; /* Align the title text to the center */
+    border-bottom: 1px solid #ccc; /* Add a border at the bottom of the title */
+    padding-bottom: 10px; /* Add some spacing below the title */
+    margin-bottom: 20px; /* Add some spacing below the title */
+  }
+
+  .text {
+    text-align: justify; /* Justify the text alignment */
+  }
+
+  .s-19{
+    margin-top: 100px;
+  }
+
+.footer{
+    background: #a1a0a0;
+    padding: 70px 0;
+    width: 90%;
+    height: 3px;
+}
+
+
+.section {
+    display: flex; /* Use flexbox for layout */
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-bottom: 80px;
+
+  }
+
+  .frame {
+    background-color: #f2f2f2; /* Gray background color for the frame */
+    padding: 20px; /* Add padding inside the frame */
+    margin-right: 20px; /* Add margin to the right for spacing */
+    border-radius: 10px; /* Add rounded corners to the frame */
+  }
+
+  .text {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+
+  .heading{
+    color: rgb(8, 28, 142);
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px; /* Add spacing below the heading */
+  }
+
+  .heading p{
+    text-align: justify;
+  }
+
+  .gray-div {
+
+    margin-bottom: 40px ;
+   justify-content: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    max-width: 90%;
+    height: 9px; /* Set the height of the div */
+    background-color: rgb(213, 213, 213); /* Set the background color to gray */
+  }
+
+.text p{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.hiho{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: rgb(8, 8, 145);
+}
+

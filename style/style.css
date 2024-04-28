@@ -1,0 +1,441 @@
+header {
+    background-color: #a0ebf6;
+      color: #fff;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      
+    }
+    
+    nav{
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 20px;
+    }
+  
+    header img {
+      margin-right: 20px;
+      height: 70px; /* Adjust as needed */
+      margin-top: 10px;
+      margin-left: 30px;
+      margin-bottom: 10px;
+    }
+  
+    header nav {
+      margin-left: auto;
+    }
+  
+    header nav a {
+      color: rgb(252, 91, 33);
+      text-decoration: none;
+      margin-left: 20px;
+      font-family: Georgia, 'Times New Roman', Times, serif ;
+                  font-size: 25px;
+                  font-weight: 1200px;
+                  line-height: 20px;
+                  letter-spacing: 0em;
+    }
+  
+  
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        text-align: center;
+      }
+  
+      header nav {
+        margin-top: 10px;
+        justify-content: flex-end;
+      }
+  
+     
+    }
+  
+  
+  
+   
+  /*header*/
+  
+  .card3 .red-text{
+      color: #f02424;
+  }
+  
+  
+  body, html {
+      margin: 0;
+      padding: 0;
+     
+      justify-content: center;
+    }
+  
+  
+   .section1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-bottom: 20px;
+      align-items: center;
+      height: 100%;
+      background-color: #f2f2f2;
+      margin-top: 30px;
+    
+   }
+   
+   .content h2{
+      
+      margin-bottom: 10px;
+      text-decoration: none;
+      margin-left: 20px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+                  font-size: 25px;
+                  font-weight: 600;
+                  line-height: 30px;
+                  letter-spacing: 0em;
+      position: relative;
+      display: inline-block;
+   }
+  
+   .content h2 .red text{
+      color: #5863e3;
+   }
+  
+   .content h2 .blue text{
+      color: aqua;
+   }
+   
+    .content {
+      background-color: #ccc;
+      padding: 20px;
+      text-align: center;
+      width: 90%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    }
+  
+    img {
+      max-width: 90%;
+      height: auto;
+    }
+  
+    @media (max-width: 768px) {
+      .content {
+        max-width: 90%;
+      }
+    }
+   
+  .section2{
+    .centered-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      margin-bottom: 20px;
+      margin-top: 40px;
+  
+    }
+    .centered-section h3{
+      color: rgba(255, 94, 0, 0.967);
+      margin-bottom: 10px;
+      text-decoration: none;
+      margin-left: 20px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                  font-size: 30px;
+                  font-weight: 700;
+                  line-height: 20px;
+                  letter-spacing: 0em;
+      position: relative;
+      display: inline-block;
+    }
+  
+    .content {
+      background-color: #e6f7ff; /* Light blue color */
+      padding: 20px;
+      max-width: 80%;
+      text-align: center;
+    }
+  
+    @media (max-width: 768px) {
+      .content {
+        max-width: 90%;
+      }
+    }
+  }
+  
+  
+  .container1 {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  .content p{
+    text-align: justify;
+    justify-content: center;
+    
+  }
+  
+  
+  
+  
+  
+  
+  
+  footer {
+    margin-top: 100px;
+      background: #6f6e6e;
+      padding: 70px 0;
+  }
+  .footerflex {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+  }
+  
+  .footerdiv1 {
+      width: 295px;
+      margin: 10px;
+      margin-left: 30px;
+  }
+  
+  .footerdiv1 h2 {
+      color: #fff;
+      font-size: 26px;
+      font-family: Helvetica;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      margin-bottom: 23px;
+  }
+  
+  .footerdiv1 p {
+      color: #c6c6cc;
+      font-size: 17px;
+      font-family: Helvetica;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      margin-bottom: 27px;
+      text-align: justify;
+  }
+  
+  .footerdiv1 img {
+      margin-right: 7px;
+  }
+  
+  .footerdiv2 {
+      display: flex;
+      margin: 10px;
+      flex-wrap: wrap;
+  }
+  .left h4 {
+      color: #fff;
+      font-size: 21px;
+      font-family: Helvetica;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-right: 80px;
+      margin-bottom: 32px;
+  }
+  .right h4 {
+      color: #fff;
+      font-size: 21px;
+      font-family: Helvetica;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-bottom: 32px;
+  }
+  
+  li a {
+      color: #5863e3;
+      font-size: 17px;
+      font-family: Helvetica;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+  }
+  
+  li {
+      margin-bottom: 9px;
+  }
+  
+  .footerdiv3 {
+      width: 350px;
+      display: flex;
+      flex-direction: column;
+      margin: 10px;
+      margin-right: 30px;
+  }
+  
+  .footerdiv3 h3 {
+      color: #fff;
+      font-size: 21px;
+      font-family: Helvetica;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-bottom: 32px;
+  }
+  
+  .footerdiv3 a {
+      color: #fff;
+      font-size: 17px;
+      font-family: Helvetica;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-bottom: 20px;
+  }
+  
+  .footerdiv3 p {
+      color: #fff;
+      font-size: 17px;
+      font-family: Helvetica;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+  }
+  .img1{
+      display: inline-block;
+  }
+  .p1{
+      display:inline-block;
+      vertical-align: middle;
+     text-align: center;
+     justify-content: center;
+  }
+  
+  .section2 .content
+  
+  .a-div{
+      display: block;
+      float: right;
+      margin-top: 20px;
+      margin-right: 20px;
+      width: 100px;
+      height: 40px;
+      
+      border-radius: 10px;
+  }
+  
+  .footerdiv3 div{
+    margin-top: 20px;
+   
+     /* Use flexbox for layout */
+      align-items: center;
+  }
+  
+  .footerdiv3 .oli{
+    margin-right: 30px;
+    align-items: center;
+  }
+  
+  
+  
+  
+  
+  .s-8{
+    margin-top: 100px;
+  }
+  
+  .footer0 {
+    height: 100px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    
+  }
+  
+  .a-div a{
+    padding: 10px 20px;
+    background-color: #52f436;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  
+  
+  
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .jijo{
+    margin-top: 25px;
+    height: 10px;
+    font-size: 20px;
+    color: #0f1cb1;
+  }
+  
+  .footer0 h1{
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  
+  
+  .container {
+  
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  .box1{
+    margin-left: 20px;
+    width: calc(25% - 20px); /* 25% width for each box with margin */
+    margin-right: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .box2 {
+    margin-right: 20px;
+    width: calc(25% - 20px); /* 25% width for each box with margin */
+    margin-right: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  
+  .box {
+    
+    width: calc(25% - 20px); /* 25% width for each box with margin */
+    margin-right: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .box h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .box p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 0;
+  }
+
+  
